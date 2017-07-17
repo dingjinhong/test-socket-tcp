@@ -1,0 +1,16 @@
+package testsocket.model;
+
+public enum ClientRequest {
+	REGISTER,
+	LOGIN,
+	LOGOUT,
+	MESSAGE,
+	GROUP_MESSAGE,
+	FILE,
+	SEARCH_FRIEND,
+	ADD_FRIEND,
+	PROMISE_ADD_FRIEND,
+	SEARCH_GROUP,
+	PROMISE_ENTER_GROUP,
+	REFRESH;
+}
